@@ -1,32 +1,32 @@
 {
-	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
-		"end": "Hello, my name is",
-		"speed": 60,
-		"deletionSpeed": 80,
-		"wrapper": "h2",
-		"startDelay": 1000,
-		"deleteDelay": 3000,
-		"restartDelay": 12000
-	},
+    "intro": {
+        "start": "const Gabriel = ( name, passion ) =>",
+        "end": "Hello world, my name is",
+        "speed": 60,
+        "deletionSpeed": 80,
+        "wrapper": "h2",
+        "startDelay": 1000,
+        "deleteDelay": 3000,
+        "restartDelay": 12000
+    },
 
-	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
-	},
+    "header": {
+        "name": "Gabriel Tavares.",
+        "usp": "I develop scalable and innovative software solutions."
+    },
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+    "paragraph": "I am a passionate backend developer, constantly learning and striving to create impactful and efficient digital experiences.",
 
-	"buttons": {
-		"primary": {
-			"title": "Contact Me",
-			"url": "",
-			"leaveSite": false
-		},
-		"secondary": {
-			"title": "LinkedIn",
-			"url": "",
-			"leaveSite": "true"
-		}
-	}
+    "buttons": {
+        "primary": {
+            "title": "Contact Me",
+            "url": "mailto:gabrielalvesrocha22@gmail.com",
+            "leaveSite": true
+        },
+        "secondary": {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/gabrieltsr/",
+            "leaveSite": true
+        }
+    }
 }

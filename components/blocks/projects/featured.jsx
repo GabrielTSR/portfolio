@@ -36,7 +36,7 @@ export default function FeaturedProject({ content }, index) {
 			whileHover="hover"
 			animate={controls} >
 			
-			<div className={css.details}>
+			<div onClick={() => window.open( url, '_blank' )} className={css.details}>
 				<div className={css.projectHeader}>
 					<div className={css.header}>
 						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	

@@ -17,9 +17,9 @@ export default function FeaturedProjects() {
 		<Section classProp={css.hasBg}>	
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Featured Projects"
-					preTitle="UX and Full Stack"
-					subTitle="Focused on the experience, driven by the engineering."
+					title="Advanced Public Projects"
+					preTitle="Back-end Development"
+					subTitle="Building scalable solutions, driven by clean code and efficiency."
 				/> 				{
 				content.map( (data, index) => {
 					return (

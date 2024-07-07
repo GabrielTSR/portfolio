@@ -30,12 +30,11 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="Passionate back-end developer working in the field since 2022, with specialty in Java and TypeScript, using frameworks like Spring Boot and Node.js to create scalable and efficient solutions."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+						<img src="/img/pravaler-photo.jpg" alt="Photo of me at Pravaler"/>
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
@@ -43,7 +42,7 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="In addition to my technical expertise, I have strong leadership, teamwork, and time management skills. Outside of work, I enjoy staying active through gym workouts and exploring new technologies."
 						/>
 						<BadgesBlock 
 							title="Reasearch and planning" 
@@ -52,7 +51,7 @@ export default function About() {
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							copy="One of my favorite aspects of development is planning the architecture of a project. From database design to implementing Clean Architecture, I enjoy creating robust and scalable backend systems."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
@@ -64,10 +63,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'calendar-alt', 		name: 'Development Since 2022', 		type: 'fad' },
+	{ key: 'sitemap', 			name: 'Microservices architecture', 	type: 'fad' },
+	{ key: 'robot', 			name: 'Test automation', 	type: 'fad' },
+	{ key: 'users-cog', 			name: 'Requirements gathering', 	type: 'far' },
+	{ key: 'layer-group', 		name: 'Clean Code', 	type: 'fad' },
+	{ key: 'code-branch', 		name: 'Code versioning', 		type: 'fad' },
 ]
