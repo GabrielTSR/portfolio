@@ -6,27 +6,28 @@
         "description": "is an educational project exploring full stack development with advanced coding concepts and scalability. Simulates a microservices architecture for bank transactions, similar to a Pix system.",
         "imageOptions": [],
         "images": [
-            { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-            { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+            { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/projects/code_pix_2.png" },
+            { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/projects/code_pix_1.png" }
         ],
         "stack": [
             { "key": "nestjs", "name": "NestJS", "type": "devicon" },
             { "key": "nextjs", "name": "Next.js", "type": "devicon" },
             { "key": "apachekafka", "name": "Apache Kafka", "type": "devicon" },
             { "key": "go", "name": "Go", "type": "devicon" },
-            { "key": "docker", "name": "Docker", "type": "devicon" }
+            { "key": "docker", "name": "Docker", "type": "devicon" },
+            { "key": "elasticsearch", "name": "Elastic Search", "type": "devicon" }
         ]
     },
     {
-        "project": "Microsservices With RabbitMQ & Spring Boot",
+        "project": "Microsservices With RabbitMQ & Spring Boot - Alura Food",
         "url": "https://github.com/GabrielTSR/microsservices-with-rabbit-mq",
         "repo": "Public",
-        "descriptionTitle": "Focused on studying microservices architecture",
+        "descriptionTitle": "Alura Course focused on studying microservices architecture",
         "description": " using Spring and communication via RabbitMQ. Explore how these technologies integrate to build scalable and resilient systems.",
         "imageOptions": [],
         "images": [
-            { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-            { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+            { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/projects/alura_food_2.png" },
+            { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/projects/alura_food_1.png" }
         ],
         "stack": [
             { "key": "java", "name": "Java", "type": "devicon" },
