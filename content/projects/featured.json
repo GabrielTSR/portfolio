@@ -7,15 +7,17 @@
         "imageOptions": [],
         "images": [
             { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/projects/code_pix_2.png" },
+            { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
             { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/projects/code_pix_1.png" }
         ],
         "stack": [
-            { "key": "nestjs", "name": "NestJS", "type": "devicon" },
-            { "key": "nextjs", "name": "Next.js", "type": "devicon" },
-            { "key": "apachekafka", "name": "Apache Kafka", "type": "devicon" },
-            { "key": "go", "name": "Go", "type": "devicon" },
-            { "key": "docker", "name": "Docker", "type": "devicon" },
-            { "key": "elasticsearch", "name": "Elastic Search", "type": "devicon" }
+            { "key": "nestjs", "name": "NestJS", "type": "devicon", "link": "https://nestjs.com/" },
+            { "key": "nextjs", "name": "Next.js", "type": "devicon", "link": "https://nextjs.org/" },
+            { "key": "apachekafka", "name": "Apache Kafka", "type": "devicon", "link": "https://kafka.apache.org/" },
+            { "key": "go", "name": "Go", "type": "devicon", "link": "https://golang.org/" },
+            { "key": "docker", "name": "Docker", "type": "devicon", "link": "https://www.docker.com/" },
+            { "key": "elasticsearch", "name": "Elastic Search", "type": "devicon", "link": "https://www.elastic.co/elasticsearch/" }
+
         ]
     },
     {
@@ -27,15 +29,16 @@
         "imageOptions": [],
         "images": [
             { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/projects/alura_food_2.png" },
+            { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
             { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/projects/alura_food_1.png" }
         ],
         "stack": [
-            { "key": "java", "name": "Java", "type": "devicon" },
-            { "key": "spring", "name": "Spring Boot", "type": "devicon" },
-            { "key": "docker", "name": "Docker", "type": "devicon" },
-            { "key": "rabbitmq", "name": "RabbitMQ", "type": "devicon" },
-            { "key": "mysql", "name": "MySQL", "type": "devicon" },
-            { "key": "git", "name": "Git", "type": "devicon" }
+            { "key": "java", "name": "Java", "type": "devicon", "link": "https://www.java.com/" },
+            { "key": "spring", "name": "Spring Boot", "type": "devicon", "link": "https://spring.io/projects/spring-boot" },
+            { "key": "docker", "name": "Docker", "type": "devicon", "link": "https://www.docker.com/" },
+            { "key": "rabbitmq", "name": "RabbitMQ", "type": "devicon", "link": "https://www.rabbitmq.com/" },
+            { "key": "mysql", "name": "MySQL", "type": "devicon", "link": "https://www.mysql.com/" },
+            { "key": "git", "name": "Git", "type": "devicon", "link": "https://git-scm.com/" }
         ]
     }
 ]
