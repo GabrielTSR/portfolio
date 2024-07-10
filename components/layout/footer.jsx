@@ -35,12 +35,13 @@ export default function Footer() {
             </li>
             <li>
               <p>
-                {content.address.street}, {content.address.neighborhood},{' '}
-                {content.address.postalCode}
+                City: {content.address.city}
               </p>
               <p>
-                {content.address.city}, {content.address.state},{' '}
-                {content.address.country}
+                State: {content.address.state}
+              </p>
+              <p>
+                Country: {content.address.country}
               </p>
             </li>
           </ul>

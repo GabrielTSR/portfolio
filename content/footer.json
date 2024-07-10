@@ -6,11 +6,8 @@
         { "type": "Whatsapp", "value": "+55 (11) 95454-5039", "url": "https://wa.me/5511954545039" }
     ],
     "address": {
-        "street": "R. José Xavier de Lima, 47",
-        "neighborhood": "Vila Silviania",
         "city": "Carapicuíba",
         "state": "São Paulo",
-        "zip_code": "06382-220",
         "country": "Brazil"
     },
     "social": [{
