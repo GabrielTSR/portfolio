@@ -17,6 +17,18 @@ export default function Document() {
 				<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
 				<meta name="msapplication-TileColor" content="#da532c" />
 				<meta name="theme-color" content="#ffffff" />
+				{/* Google Analytics */}
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-K6N9C8LQYC"></script>
+				<script
+				dangerouslySetInnerHTML={{
+					__html: `
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', 'G-K6N9C8LQYC');
+					`,
+				}}
+				/>
 				<title>Portfolio - Gabriel Tavares Silva Rocha</title>
 			</Head>
 			<body>
